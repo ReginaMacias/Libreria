@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body background="IMG/descarga (1).jpeg">
+<body background="IMG/fondo1.png">
     
     <header>BOOKHOT    
         <nav>
@@ -19,23 +19,30 @@
         </nav>    
     </header>
 
-    <form action="">
+    <form action="PHP/registro2.php" method="POST">
         <div>
           <label for="">Nombre</label>
-          <input type="text">
+          <input type="text" name="nombre">
+
           <label for="">Apeido Paterno</label>
-          <input type="text" name="" id="">
+          <input type="text" name="apeidoP" id="">
+
           <label for="">Apeido Materno</label>
-          <input type="text" name="" id="">
-          <label for="">Correo</label>
-          <input type="email" name="" id="">
+          <input type="text" name="apeidoM" id="">
+
           <label for="">Telefono</label>
-          <input type="tel" name="" id="">
+          <input type="tel" name="telefono" id="">
+
+          <label for="">Correo</label>
+          <input type="email" name="correo" id="">   
+
           <label for="">Contraseña</label>
-          <input type="password" name="" id="">
-          <button id="regis">Registrate</button>
+          <input type="password" name="contraseña" id="">
+
+          <input  type="submit" name="Registro" value="Enviar">
         </div>     
       </form>
+
 
       <footer>
          <p>
